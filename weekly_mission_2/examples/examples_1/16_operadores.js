@@ -16,4 +16,4 @@ users.sort((a, b) => { // podemos invocar una función
 })
 
 console.log("Example 16: Ordenando una lista de objetos por la edad")
-console.log(users)  // sorted ascending
+console.log(users)  // sorted ascending 
