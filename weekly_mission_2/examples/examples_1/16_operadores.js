@@ -11,7 +11,7 @@ const users = [
 
 users.sort((a, b) => { // podemos invocar una función
     if (a.age < b.age) return -1
-    if (a.age > b.age) return 1
+    if (a.age > b.age) return 1 
     return 0
 })
 
