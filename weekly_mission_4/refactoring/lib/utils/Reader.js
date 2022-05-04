@@ -1,9 +1,14 @@
-const Reader = require('.lib')
+const fs = require('fs')
 
 class Reader {
-    constructor()
 
-    static readJsonFile(){
-        return 
+    static readJsonFile(path){
+        const rawdata = fs.readFileSync(path)
+
+        const explorers = JSON.parse(rawdata)
+
+        return explorers
     }
 }
+
+module.exports = Reader
